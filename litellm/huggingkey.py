@@ -1,7 +1,7 @@
 from litellm import completion
 import os
 
-os.environ["HUGGINGFACE_API_KEY"] = "hf"+"_RkTxQmLpNvBsYwJcDzAeXgFuHiOjKnMqWr"
+os.environ["HUGGINGFACE_API_KEY"] = "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"
 
 # e.g. Call 'WizardLM/WizardCoder-Python-34B-V1.0' hosted on HF Inference endpoints
 response = completion(
